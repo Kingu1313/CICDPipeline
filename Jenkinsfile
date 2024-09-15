@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        registry = "yourdockerhubusername/yourimagename"
+        registry = "kingu1313/cicdpipeline"
         registryCredential = 'dockerhub'
         dockerImage = ''
     }
