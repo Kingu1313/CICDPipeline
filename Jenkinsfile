@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Cloning Git') {
             steps {
-                git 'https://github.com/Kingu1313/CICDPipeline.git
+                git 'https://github.com/Kingu1313/CICDPipeline.git'
             }
         }
         stage('Building Docker Image') {
